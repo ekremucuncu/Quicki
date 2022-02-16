@@ -1,0 +1,219 @@
+@font-face {
+  font-family: futura;
+  src: url('futura/futur.tff');
+}
+
+body{
+  font-family: 'futura';
+  font-size: 15px;
+}
+
+.container-myself{
+  margin: 0 10vw;
+}
+
+.header-general{
+  border-left: 20px #8CC27B solid;
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: bold;
+  letter-spacing:0.6px;
+  color: #2149FE;
+}
+.general-button{
+  background-color: #2149FE;
+  width: 125px;
+  height: 37.5px;
+  box-shadow: 0px 7.5px 15px rgba(33, 73, 254, 0.35);
+  border-radius: 3.75px;
+  margin: 0;
+}
+
+.general-button-inside{
+  margin: 1vh;
+  font-size: 12px;
+}
+
+.general-button-text{
+  margin-left: 15px;
+  color: white;
+}
+
+.general-button-icon{
+  margin-left: 20px;
+}
+
+.upper{
+  text-transform: uppercase;
+}
+/* Navbar */
+
+nav .nav-logo{
+  padding: 0;
+  margin-right: 0;
+}
+
+nav .nav-topic{
+  font-weight: 500;
+  line-height: 34px;
+  margin-left: 5vh;
+  padding: 0px;
+  width: max-content;
+}
+
+nav .nav-topic:hover, nav .nav-language:hover{
+  color: #2149FE !important;
+}
+
+nav .logo{
+  width: 75%;
+  height: 75%;
+}
+
+nav .nav-language{
+  padding: 0;
+  margin: 0;
+}
+
+nav .nav-de{
+  border-left: 1px solid black;
+  margin-left: 0px;
+  margin-right: 5vh;
+}
+
+/* Landing-Page */
+
+#landing-page{
+  height: 90vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  margin-top: 5vh;
+  padding: 0;
+}
+
+#landing-page .hero-image{
+  background-image: url('images/hero.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85%;
+  width: 90%;
+  border-radius: 15px;
+  margin: auto;
+}
+
+#landing-page .hero-container{
+  padding: 5vh;
+}
+
+#landing-page .hero-header{
+  color:white;
+  font-size: 60px;
+  letter-spacing: 1px;
+  line-height: 75px;
+}
+
+#landing-page .hero-paragraph{
+  margin-top: 4vh;
+}
+
+#landing-page .general-button{
+  margin-top: 6vh;
+}
+
+#landing-page .general-button-inside{
+  padding-top: 6px;
+}
+
+#landing-page .general-button-text{
+  margin-left: 20px;
+}
+
+#landing-page .store {
+  width: 110px;
+  height: 37.5px;
+}
+
+#landing-page .store-div{
+  margin-right: 3vh;
+}
+
+#landing-page .store-row{
+  padding-top: 8vh;
+}
+
+/* Features */
+
+#features .container-box{
+  padding: 0vh 4vw;
+}
+
+#features .box{
+  width: 75vw;
+  height: 45vh;
+  margin: auto;
+  margin-top: 5vh;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.5);
+  border-radius: 10px;
+}
+
+#features .box-paragraph{
+  font-size: 12px;
+  color: #868788;
+}
+
+#features .box-rectangle{
+  z-index: 0;
+  position: absolute;
+}
+
+#features .box-image{
+  position: absolute;
+}
+
+#features .box-image-help{
+  margin-top:3vh;
+  margin-left: 1vw;
+}
+
+#features .box-components{
+  position: relative;
+  margin-top: 22vh;
+}
+
+#features .box-paragraph{
+    margin-top: 2vh;
+}
+
+/* Workflow */
+
+#workflow{
+  padding-top: 10vh;
+}
+
+#workflow .workflow-image{
+  max-width: 90%;
+  max-height: 90%;
+  margin-top: 10vh;
+  margin-left: 4vw;
+  margin-bottom: 5vh;
+}
+
+#workflow .container-workflow{
+  margin: 0 5vw;
+  background-color: #F4F4F4;
+}
+
+#workflow .container-myself{
+  margin: 0 5vw;
+}
+
+#workflow .workflow-text{
+  color:#617283
+}
+
+/* Application */
