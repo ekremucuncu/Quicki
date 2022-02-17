@@ -1,6 +1,6 @@
 @font-face {
   font-family: futura;
-  src: url('futura/futur.tff');
+  src: url('futura/futur.ttf');
 }
 
 body{
@@ -19,6 +19,7 @@ body{
   font-weight: bold;
   letter-spacing:0.6px;
   color: #2149FE;
+  padding-left: 1vw;
 }
 .general-button{
   background-color: #2149FE;
@@ -46,6 +47,11 @@ body{
 .upper{
   text-transform: uppercase;
 }
+
+.container-little{
+  margin: 0 5vw;
+}
+
 /* Navbar */
 
 nav .nav-logo{
@@ -203,8 +209,7 @@ nav .nav-de{
   margin-bottom: 5vh;
 }
 
-#workflow .container-workflow{
-  margin: 0 5vw;
+#workflow .container-little{
   background-color: #F4F4F4;
 }
 
@@ -216,4 +221,196 @@ nav .nav-de{
   color:#617283
 }
 
+#workflow .border-left{
+  padding-left: 1vw;
+  border-left: 5px solid #8CC27B;
+}
+
 /* Application */
+
+#application{
+  padding-top: 7vh;
+}
+
+#application .iphone{
+  max-width: 95%;
+  max-height: 95%;
+}
+
+#application .container-little{
+  margin-top: 10vh;
+  background-color: #F4F4F4;
+  padding-top: 5vh;
+}
+
+#application .box{
+  height: 10vh;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#application .icon{
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 5%;
+  margin-top: 3%
+}
+
+#application .sub-header{
+  font-size: 27px;
+  margin-left: 15%;
+}
+
+#application .col-12 .sub-header{
+  color: #D95214;
+  margin-left: 0;
+}
+
+#application .list-header{
+  font-size: 20px;
+}
+
+#application .list-text{
+  font-size: 15px;
+  color: #666666;
+}
+
+#application .border-left{
+  border-left: 7px solid #3E61FF;
+  border-radius: 3.5px;
+}
+
+#application .col-12{
+  margin-top: 2vh;
+}
+
+/* Box */
+
+#box{
+  margin-top: 10vh;
+}
+
+#box .container-myself{
+  background-image: url('images/box-back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+#box .inner-container{
+  margin-left: 3vw;
+  padding: 8vh 3vw;
+}
+
+#box h1{
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 37.5px;
+  letter-spacing: -5px;
+  color:#2149FE;
+}
+
+#box h2{
+  font-size: 37.5px;
+  color:#2149FE;
+  font-weight: bold;
+  line-height: 37.5px;
+}
+
+#box h4{
+  font-size: 27px;
+  line-height: 35px;
+  text-align: justify;
+  margin-top: 7vh;
+}
+
+#box .business{
+  color: white;
+}
+
+#box .general-button-text{
+  font-size: 15px;
+}
+
+#box .general-button{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#box .container-myself-2{
+  margin: 20vh 10vw;
+}
+
+/* Carousel */
+
+#carousel{
+  height: 100vh;
+}
+
+#carousel .background{
+  position: relative;
+}
+
+
+
+#carousel .back{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 4vw;
+  max-width: 30%;
+  height:auto;
+}
+
+#carousel .header-general{
+  font-size: 40px;
+  line-height: 35px;
+  margin-left: 5vw;
+}
+
+#carousel .container-second{
+  padding-top: 5vh;
+}
+
+#carousel .box{
+  background: #2149FE;
+  height: 337.5px;
+  width: 283.5px;
+  border-radius: 7.5px;
+}
+
+#carousel .col-3{
+  margin-top: 15vh;
+  margin-left: 3vw;
+}
+
+#carousel .container-box{
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#carousel .comment{
+  padding-top: 20px;
+  font-family: Futura;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: justified;
+  color: white;
+}
+
+#carousel .comment-owner{
+  position: absolute;
+  bottom: 30px;
+  padding-top: 20px;
+  font-family: Futura;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: justified;
+  color: white;
+}

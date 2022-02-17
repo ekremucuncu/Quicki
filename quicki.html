@@ -5,8 +5,9 @@
     <title>Quicki</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="quicki.js" defer></script>
     <link rel="stylesheet" href="quicki.css">
-
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -149,25 +150,25 @@
     </section>
 
     <section id="workflow">
-      <div class="container-workflow">
+      <div class="container-little">
         <div class="container-myself">
           <h1 class="header-general">Workflow</h1>
           <img class="workflow-image" src="images/Varlık 3@4x-8.png" alt="workflow">
           <div class="row">
             <div class="col-4">
-              <div class="">
+              <div class="border-left">
                 <h4 class="workflow-header">Registered Volunteers</h4>
                 <p class="workflow-text">You can be a volunteer on Quicki easily. Volunteers can register to Quicki to start carrying deliveries as registered volunteer.</p>
               </div>
             </div>
             <div class="col-4">
-              <div class="">
+              <div class="border-left">
                 <h4 class="workflow-header">Order Fast & Easy</h4>
                 <p class="workflow-text">Order all your requests fast and easy by monitoring all your orders in detail.</p>
               </div>
             </div>
             <div class="col-4">
-              <div class="">
+              <div class="border-left">
                 <h4 class="workflow-header">User-friendly Design</h4>
                 <p class="workflow-text">The user-friendly design facilitates the ordering process.</p>
               </div>
@@ -177,8 +178,114 @@
     </div>
     </section>
 
-    <section id="appication">
+    <section id="application">
+      <div class="container-myself">
+        <h1 class="header-general">Application</h1>
+      </div>
+      <div class="container-little">
+        <div class="row">
+          <div class="col-5">
+            <img id="phone-desktop" class="iphone" src="images/iphone.png" alt="mobile">
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div id="phone" class="col-5 box" style="background-color:white;">
+                <img class="icon" src="images/002-user-interface-1.svg" alt="user-interface">
+                <span class="sub-header align-middle">Mobile</span>
+              </div>
+              <div class="col-1"></div>
+              <div id="desktop" class="col-5 box">
+                <img class="icon" src="images/001-user-interface.png" alt="user-interface">
+                <span class="sub-header align-middle">Desktop</span>
+              </div>
+              <div class="col-12">
+                <h4 class="sub-header">Customers</h4>
+              </div>
+              <div class="col-12 border-left">
+                <h5 class="list-header">Order Status Tracking for Customers</h5>
+                <p class="list-text">Get the items you love delivered in as little as 2 hours. Get a confirmation as soon as a volunteer has accepted your order.</p>
+              </div>
+              <div class="col-12 border-left">
+                <h5 class="list-header">Choosing Delivery Date and Time</h5>
+                <p class="list-text">Receive your order on the day and within the time range of your choice.</p>
+              </div>
+              <div class="col-12 border-left">
+                <h5 class="list-header">Easy to Repeat Order</h5>
+                <p class="list-text">View all your orders in detail and quickly repeat your order from the last order using the order area in your profile.</p>
+              </div>
+              <div class="col-12">
+                <h4 class="sub-header">Volunteers</h4>
+              </div>
+              <div class="col-12 border-left">
+                <h5 class="list-header">Easy Registration for Volunteers</h5>
+                <p class="list-text">You can easily become a volunteer on Quicki. Volunteers can register on Quicki to carry deliveries as a registered volunteer.</p>
+              </div>
+              <div class="col-12 border-left">
+                <h5 class="list-header">Management Panel for Volunteers</h5>
+                <p class="list-text">Usability management panel for volunteers. Every volunteer can easily manage the status of all their orders.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="box">
+      <div class="container-myself">
+        <div class="inner-container">
+          <img src="images/Quicki_Logo.png" alt="">
+            <h2>QUICKI <span class="business">Business</span></h2>
+          <h4>The best way to setup and organize <br> your e-commerce business deliveries</h4>
+          <div class="general-button">
+            <div class="general-button-inside">
+              <span class="general-button-text text-align align-middle">Order Now</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-myself-2">
+        <h1>We’re building Quicki <span style="color:#8CC27B">together!</span></h1>
+      </div>
+    </section>
+
+
+    <section id="carousel">
+        <div class="container-myself background">
+          <img class="back" src="images/oks.png" alt="">
+          <div class="container-second">
+            <h1 class="header-general">What<br>People Say</h1>
+            <div class="d-flex flex-row-reverse">
+              <div class="col-3">
+                  <div class="box">
+                    <div class="container-box">
+                      <img src="images/Group 10.png" alt="">
+                      <p class="comment">lorem"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                      <p class="comment-owner"><span style="font-weight:bold;">Brandon Roger</span> / <span>Amazon.de</span></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-3">
+                  <div class="box">
+                    <div class="container-box">
+                      <img src="images/Group 10.png" alt="">
+                      <p class="comment">lorem"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                      <p class="comment-owner"><span style="font-weight:bold;">Brandon Roger</span> / <span>Amazon.de</span></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-3">
+                  <div class="box">
+                    <div class="container-box">
+                      <img src="images/Group 10.png" alt="">
+                      <p class="comment">lorem"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                      <p class="comment-owner"><span style="font-weight:bold;">Brandon Roger</span> / <span>Amazon.de</span></p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 
