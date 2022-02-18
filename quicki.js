@@ -19,9 +19,9 @@ $( "#click" ).click(function() {
     var double = 2*distance;
     $('#box1').fadeOut(10).promise().done(function(){
       $("#box1").animate({ "left": "+="+double+"px"},"slow");
+      // $( "#box2" ).animate({ "left": "-="+distance+"px"},"slow");
+      // $( "#box3" ).animate({ "left": "-="+distance+"px"},"slow");
       $('#box1').fadeIn(100);
-      $( "#box2" ).animate({ "left": "-="+distance+"px"},"slow");
-      $( "#box3" ).animate({ "left": "-="+distance+"px"},"slow");
     });
   }
 
@@ -31,23 +31,23 @@ $( "#click" ).click(function() {
     var distance = left2-left1;
     var double = 2*distance;
     $('#box2').fadeOut(10).promise().done(function(){
-      $("#box2").animate({ "left": "+="+double+"px"},"slow");
+      // $("#box2").animate({ "left": "+="+double+"px"},"slow");
+      // $("#box3").animate({ "left": "-="+distance+"px"},"slow");
+      $("#box1").animate({ "left": "-="+distance+"px"},"slow");
       $('#box2').fadeIn(100);
-      $( "#box3" ).animate({ "left": "-="+distance+"px"},"slow");
-      $( "#box1" ).animate({ "left": "-="+distance+"px"},"slow");
     });
   }
 
   if (turn=="3"){
-    var left1=$( "#box3" ).position().left;
-    var left2=$( "#box1" ).position().left;
+    var left1=$( "#box2" ).position().left;
+    var left2=$( "#box3" ).position().left;
     var distance = left2-left1;
     var double = 2*distance;
     $('#box3').fadeOut(10).promise().done(function(){
-      $("#box3").animate({ "left": "+="+double+"px"},"slow");
-      $('#box3').fadeIn(100);
+      // $("#box3").animate({ "left": "+="+double+"px"},"slow");
       $( "#box1" ).animate({ "left": "-="+distance+"px"},"slow");
-      $( "#box2" ).animate({ "left": "-="+distance+"px"},"slow");
+      // $( "#box2" ).animate({ "left": "-="+distance+"px"},"slow");
+      $('#box3').fadeIn(100);
     });
   }
 
@@ -55,5 +55,6 @@ $( "#click" ).click(function() {
   if (new_turn==4){
     new_turn=1;
   }
+
   $(this).attr("class","btn btn-primary "+new_turn)
 });
